@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -40,4 +40,100 @@
 .text_color {
   color: red;
   background-color: black;
+}
+
+ul.respone_list {
+  display: flex;
+}
+.btn {
+  color: #61dafb;
+  display: none;
+}
+
+@media screen and (min-width: 375px) and (max-width: 600px) {
+  .btn {
+    color: #fb6161;
+    display: block;
+    float: right;
+    position: absolute;
+  }
+
+  ul.respone_list {
+    display: none;
+  }
+} */
+
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* .logo {
+  position: fixed;
+  float: left;
+} */
+.list {
+  display: flex;
+  gap: 20px;
+  transition: all 0.5s ease;
+}
+.list li {
+  text-decoration: none;
+}
+/* .userModal {
+  background-color: rgb(36, 33, 33);
+  height: 100vh;
+  opacity: 0.6;
+} */
+.btnEl {
+  display: none;
+}
+.modal_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+}
+.modal_card {
+  display: none;
+}
+
+.classModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 200px;
+  border: 1px solid black;
+}
+@media screen and (min-width: 375px) and (max-width: 600px) {
+  .modal {
+    align-items: start;
+  }
+  .list {
+    display: none;
+  }
+
+  .btnEl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(90deg);
+    background-color: #fff;
+    width: 30px;
+    height: 50px;
+
+    border: 1px solid black;
+  }
 }
