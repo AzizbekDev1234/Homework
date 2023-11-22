@@ -72,7 +72,9 @@ ul.respone_list {
   text-decoration: none;
   list-style: none;
 }
-
+body {
+  background-color: aqua;
+}
 .modal {
   display: flex;
   align-items: center;
