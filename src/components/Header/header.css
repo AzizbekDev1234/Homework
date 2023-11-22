@@ -1,0 +1,18 @@
+.imgRandom {
+  width: 400px;
+  height: 200px;
+}
+.random {
+  display: flex;
+  justify-content: center;
+  margin-top: 350px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.random_btn {
+  width: 100px;
+  border: 1px solid black;
+  background-color: aqua;
+  border-radius: 8px;
+}

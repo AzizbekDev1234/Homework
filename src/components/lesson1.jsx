@@ -76,7 +76,9 @@ const Lesson1 = () => {
       </div>
       <div className="modal_wrapper  userModal ">
         <div className="window_modal">
-          <button onClick={modalClicked}>Modal</button>
+          <button className="btnModal" onClick={modalClicked}>
+            Modal
+          </button>
         </div>
         <div className={modal ? "classModal" : "modal_card"}>
           <h2>Bu madal oyna</h2>

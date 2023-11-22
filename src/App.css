@@ -104,9 +104,16 @@ ul.respone_list {
   align-items: center;
   flex-direction: column;
   gap: 100px;
+  position: fixed;
+  right: 33%;
 }
 .modal_card {
   display: none;
+}
+
+.btnModal {
+  position: fixed;
+  right: 50%;
 }
 
 .classModal {
